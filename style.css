@@ -12,7 +12,8 @@ body{
 
 header > img{
     display: block;
-    max-width: 900px;
+    max-width: 100%;
+    min-width: 220px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.267);
 }
 
@@ -43,7 +44,7 @@ nav > a:hover{
 main{
     background-color: white;
     max-width: 880px;
-    min-width: none;
+    min-width: 200px;
     margin: 0px auto 50px auto;
     padding: 10px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.267);
